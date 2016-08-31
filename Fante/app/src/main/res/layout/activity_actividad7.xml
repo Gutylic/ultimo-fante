@@ -31,7 +31,9 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="Celular"
                 android:id="@+id/celular"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="12dp"
+                />
 
             <TextView
                 android:layout_width="0dp"
@@ -40,6 +42,8 @@
                 android:text="Credito"
                 android:id="@+id/credito"
                 android:layout_weight="0.43"
+                android:textSize="12dp"
+                android:gravity="end"
                 />
 
 
